@@ -9,4 +9,6 @@ get("/photos/:path_id", { :controller => "photos", :action => "show"})
 
 get("/photos", { :controller => "photos", :action => "index"})
 
+get("/delete_photo/:toast_id", { :controller => "photos", :action => "baii"})
+
 end
